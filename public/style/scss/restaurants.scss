@@ -1,0 +1,98 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "mediaRestaurants.scss";
+
+// ordre des colonnes forcées
+.ord1 {
+    order: 1;
+}
+.ord2 {
+    order: 2;
+}
+.ord3 {
+    order: 3;
+}
+.ord4 {
+    order: 4;
+}
+.ord5 {
+    order: 5;
+}
+.ord6 {
+    order: 6;
+}
+.ord7 {
+    order: 7;
+}
+.ord8 {
+    order: 8;
+}
+
+.restaurants {
+    background-image: $fond-restaurants;
+    @include background;
+    .filter-black {
+        background-color: #0009;
+        padding-bottom: 30px;
+        .title-restaurants {
+            padding-top: 20px;
+            color: $white01;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0;
+            .hr-title {
+                width: 127px;
+                background-color: $color-gold;
+                height: 3px;
+                margin: 5px 0;
+            }
+            
+            .hr-restaurants01 {
+                margin-left: 30px;
+                align-self: flex-start;
+            }
+            .hr-restaurants02 {
+                margin-right: 30px;
+                align-self: flex-end;
+            }
+            
+        }
+        .title-selection {
+            font-size: 1.3em;
+            text-align: center;
+            padding: 20px;
+            color: $white01;
+        }
+        .grid-restaurants {
+            max-width: inherit;
+            .col-restaurant {
+                padding: 3px;
+            }
+            .row {
+                padding: 6px;
+                justify-content: center;
+            }
+        }
+        .text-fin-restaurants {
+            background-color: #ffffffd4;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            .hr-text-fin {
+                width: 45px;
+                background-color: $color-gold;
+                height: 2px;
+            }
+            .p-text {
+                padding: 10px;
+                font-size: 1.1em;
+                letter-spacing: 1px;
+                text-align: center;
+                color: $primary-black;
+            }
+        }
+        
+    }
+}

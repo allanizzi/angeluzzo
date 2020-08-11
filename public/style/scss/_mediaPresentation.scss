@@ -1,0 +1,79 @@
+@media screen and (min-width: 770px) {
+    .presentation {
+        .card-terrasse .image-terrasse-decouvrir {
+            height: 330px;
+            .img-figure {
+                height: 100%;
+                // object fit cover permet de contenir une image dans son élément parent sans la déformer
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .presentation {
+        .card-terrasse .image-terrasse-decouvrir {
+            .img-figure {
+                object-position: bottom;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1150px) {
+    .presentation {
+        .card-terrasse .card-img-terrasse {
+            display: flex;
+            .image-terrasse-decouvrir {
+                height: 370px;
+                margin: 15px auto;
+                box-shadow: 5px 7px 8px;
+                border-radius: 5px;
+                .img-figure {
+                    width: 886px;
+                    border-radius: 5px;
+                }
+            }
+        }
+        .card-terrasse, .card-plats {
+            .card-content .content {
+                font-size: 1.3em;
+                line-height: 33px;
+            }
+        }
+        .card-plats .card-image .image-plats {
+            justify-content: space-around;
+            img {
+                width: 30%;
+                border-radius: 5px;
+                box-shadow: 4px 4px 6px;
+                margin: 20px auto;
+                transition: transform .5s ease-in-out;
+                &:hover {
+                    transform: scale(1.2);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1270px) {
+    .presentation {
+        .card-terrasse .card-img-terrasse {
+            .image-terrasse-decouvrir {
+                height: 390px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .presentation {
+        .card-plats .card-image .image-plats {
+            img {
+                width: 25%;
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "mediaADecouvrir.scss";
+
+.grid-decouvrir {
+    max-width: inherit;
+    padding: 0;
+    .hidden960, .display960 {
+        display: none;
+    }
+    .v-card {
+        border-radius: 0;
+        padding: 8px;
+        background-color: $third-black;
+        height: calc((100vh / 3) + 25px);
+        min-height: 275px;
+    }
+    .title-carte {
+        font-family: $josefin-family;
+        color: $white01;
+        text-align: center;
+        padding-top: 5px;
+        margin-bottom: 10px;
+        font-size: 1.49em;
+    }
+    .text-carte {
+        color: $white01;
+        font-family: $josefin-family;
+        text-align: center;
+        padding: 5px;
+        margin-top: 6px;
+        font-weight: 200;
+        letter-spacing: .5px;
+        font-size: 1em;
+    }
+    .hr-carte {
+        width: 90px;
+        background-color: $color-gold;
+        display: flex;
+        margin: auto;
+    }
+    .image-carte {
+        border: none;
+        @include background;
+        background-attachment: inherit;
+    }
+    .image-terrasse {
+        background-image: $terrasseAngel;
+    }
+    .image-pates {
+        background-image: $tortellinis;
+    }
+    .image-pizzas {
+        background-image: $pizza;
+    }
+    .image-anniv {
+        background-image: $anniversaire;
+    }
+}

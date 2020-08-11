@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Cardo", serif;
+}
+
+@media screen and (min-width: 600px) {
+  .equipe .filter-white .title-equipe {
+    font-size: 2.4em !important;
+    padding-top: 15px;
+  }
+  .equipe .filter-white .title-equipe .hr-title {
+    width: 100px !important;
+    height: 3px !important;
+  }
+}
+@media screen and (min-width: 750px) {
+  .equipe .filter-white .title-equipe {
+    font-size: 2.5em !important;
+    padding-top: 15px;
+  }
+  .equipe .filter-white .carte-equipe {
+    max-width: 100% !important;
+  }
+  .equipe .filter-white .carte-equipe .img-carte {
+    width: 100% !important;
+    left: auto !important;
+    max-width: 100% !important;
+    height: 270px !important;
+    border-radius: 5px 5px 0 0 !important;
+  }
+  .equipe .filter-white .carte-equipe .titre-carte {
+    font-size: 1.8em !important;
+  }
+  .equipe .filter-white .carte-equipe .text-equipe {
+    font-size: 1.3em !important;
+    line-height: 35px !important;
+  }
+  .equipe .filter-white .carte-equipe .text-slogan {
+    font-size: 1.6em !important;
+  }
+}
+@media screen and (min-width: 960px) {
+  .equipe .filter-white .carte-equipe .text-carte-hidden {
+    display: block !important;
+  }
+  .equipe .filter-white .carte-equipe .text-carte-displayed {
+    display: none !important;
+  }
+  .equipe .filter-white .carte-equipe .v-card__actions {
+    justify-content: center;
+  }
+  .equipe .filter-white .carte-equipe .v-card__actions svg {
+    margin-left: 30px !important;
+  }
+  .equipe .filter-white .carte-equipe .spacer {
+    flex-grow: inherit !important;
+  }
+  .equipe .filter-white .carte-equipe .btn-hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .equipe .filter-white .title-equipe .hr-title {
+    width: 130px !important;
+    height: 3px !important;
+  }
+  .equipe .filter-white .carte-equipe .img-carte {
+    height: 320px !important;
+  }
+  .equipe .filter-white .carte-equipe .img-carte::before {
+    position: absolute;
+    top: 0;
+    left: -75%;
+    z-index: 2;
+    display: block;
+    content: "";
+    width: 50%;
+    height: 100%;
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
+    -webkit-transform: skewX(-25deg);
+    transform: skewX(-25deg);
+  }
+  .equipe .filter-white .carte-equipe .img-carte:hover::before {
+    -webkit-animation: shine 1s;
+    animation: shine 1s;
+  }
+  .equipe .filter-white .carte-equipe .v-card__text {
+    padding: 25px !important;
+  }
+  .equipe .filter-white .carte-equipe .titre-carte {
+    font-size: 1.8em !important;
+    padding: 22px !important;
+  }
+  .equipe .filter-white .carte-equipe .text-equipe {
+    font-size: 1.45em !important;
+  }
+  .equipe .filter-white .carte-equipe .text-slogan {
+    font-size: 2.1em !important;
+    padding: 15px !important;
+  }
+}
+@media screen and (min-width: 1365px) {
+  .equipe .filter-white .title-equipe {
+    font-size: 2.8em;
+    padding-top: 20px;
+  }
+  .equipe .filter-white .carte-equipe .img-carte {
+    height: 425px !important;
+  }
+}
+@-webkit-keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+@keyframes shine {
+  100% {
+    left: 125%;
+  }
+}
+.equipe {
+  background-image: url("../../Images/background-site-portrait.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.equipe .filter-white {
+  background-color: #ffffff9c;
+  padding-bottom: 20px;
+}
+.equipe .filter-white .title-equipe {
+  padding-top: 8px default;
+  color: #302F2E;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.equipe .filter-white .title-equipe .hr-title {
+  width: 45px;
+  background-color: #98792C;
+  height: 2px;
+}
+.equipe .filter-white .title-equipe .hr-equipe01 {
+  margin-right: 2%;
+}
+.equipe .filter-white .title-equipe .hr-equipe02 {
+  margin-left: 2%;
+}
+.equipe .filter-white .carte-equipe {
+  margin: auto;
+  width: 70%;
+  box-shadow: 2px 2px 5px #5b5b5b;
+}
+.equipe .filter-white .carte-equipe .img-carte {
+  background-image: url("../../Images/equipe.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-attachment: inherit;
+  box-shadow: 0px 1px 5px white;
+  width: 120%;
+  left: -10%;
+  border-radius: 5px;
+  max-width: 120%;
+}
+.equipe .filter-white .carte-equipe .titre-carte {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.equipe .filter-white .carte-equipe .text-equipe {
+  color: #d7d7d7;
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 1.15em;
+}
+.equipe .filter-white .carte-equipe .text-carte-hidden {
+  display: none;
+}
+.equipe .filter-white .carte-equipe .theme--dark.v-btn.v-btn--icon {
+  color: #98792C;
+}
+.equipe .filter-white .carte-equipe .v-btn--flat, .equipe .filter-white .carte-equipe .v-btn--outlined, .equipe .filter-white .carte-equipe .v-btn--text {
+  background-color: #f0f0f0;
+}
+.equipe .filter-white .carte-equipe .mdi::before, .equipe .filter-white .carte-equipe .mdi-set {
+  font-size: 38px;
+}
+.equipe .filter-white .carte-equipe .text-equipe02 {
+  margin-bottom: 30px;
+}
+.equipe .filter-white .carte-equipe .hr-text {
+  background-color: #98792C;
+  width: 60%;
+  margin: auto;
+}
+.equipe .filter-white .carte-equipe .text-slogan {
+  font-weight: bold;
+  font-style: italic;
+  color: #d7d7d7;
+  font-size: 1.3em;
+  text-align: end;
+  letter-spacing: 2px;
+}
+
+/*# sourceMappingURL=equipe.css.map */

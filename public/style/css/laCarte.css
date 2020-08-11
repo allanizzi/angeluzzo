@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Cardo", serif;
+}
+
+@media screen and (min-width: 350px) {
+  .laCarte {
+    background-attachment: fixed !important;
+  }
+}
+@media screen and (min-width: 750px) {
+  .laCarte .filter-black .title-carte, .laCarte .filter-black .title-drink {
+    font-size: 2.8em;
+  }
+  .laCarte .filter-black .title-carte {
+    margin-top: 20px;
+    margin-left: 0 !important;
+    width: 100% !important;
+  }
+  .laCarte .filter-black .title-drink {
+    margin-top: 65px !important;
+  }
+}
+@media screen and (min-width: 1314px) {
+  .laCarte .filter-black .is-overlay {
+    max-width: 890px !important;
+  }
+}
+.laCarte {
+  background-image: url("../../Images/background-carte.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-attachment: inherit;
+}
+.laCarte .filter-black {
+  background-color: #0009;
+  padding: 20px;
+}
+.laCarte .filter-black .title-carte {
+  color: #d7d7d7;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 73px;
+  width: calc(100% - 87px);
+}
+.laCarte .filter-black .title-carte .hr-title {
+  width: 33px;
+  background-color: #98792C;
+  max-width: 100px;
+  width: 20%;
+}
+.laCarte .filter-black .title-carte .hr-carte01 {
+  margin-right: 2%;
+}
+.laCarte .filter-black .title-carte .hr-carte02 {
+  margin-left: 2%;
+}
+.laCarte .filter-black .carousel {
+  max-width: 760px;
+}
+.laCarte .filter-black .carousel .carousel-items {
+  border-radius: 10px 10px 0 0;
+}
+.laCarte .filter-black .carousel-carte {
+  width: 100%;
+  margin: auto;
+  margin-top: 70px;
+}
+.laCarte .filter-black .is-overlay {
+  margin-top: 0;
+}
+.laCarte .filter-black .carousel-boissons {
+  margin-top: 35px;
+}
+.laCarte .filter-black .title-drink {
+  color: #d7d7d7;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  margin-top: 55px;
+  margin-bottom: 25px;
+}
+.laCarte .filter-black .title-drink .hr-title-drink {
+  width: 33px;
+  background-color: #98792C;
+  max-width: 100px;
+  width: 20%;
+}
+.laCarte .filter-black .title-drink .hr-carte01 {
+  margin-right: 2%;
+}
+.laCarte .filter-black .title-drink .hr-carte02 {
+  margin-left: 2%;
+}
+
+/*# sourceMappingURL=laCarte.css.map */

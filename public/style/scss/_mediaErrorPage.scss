@@ -1,0 +1,27 @@
+@media screen and (min-width: 750px) {
+    .errorPage {
+        .filter-black {
+            .contenu-hero {
+                .title-oups {
+                    font-size: 4.4em !important;
+                }
+                .text-error {
+                    font-size: 1.8em !important;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1112px) {
+    .errorPage {
+        .filter-black {
+            .contenu-hero {
+                .text-error {
+                    font-size: 2.3em !important;
+                }
+            }
+        }
+    }
+}

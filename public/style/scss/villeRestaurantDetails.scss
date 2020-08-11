@@ -1,0 +1,294 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "mediaDetailsRestaurant.scss";
+
+.ord1 {
+    order: 1;
+}
+.ord2 {
+    order: 2;
+}
+.ord3 {
+    order: 3;
+}
+.ord4 {
+    order: 4;
+}
+.ord5 {
+    order: 5;
+}
+.ord6 {
+    order: 6;
+}
+.ord7 {
+    order: 7;
+}
+.ord8 {
+    order: 8;
+}
+
+// style général des pages détails de chaque restaurant
+
+// section du component qui contient le logo de la ville où se situe l'angelùzzo
+.logoAngelRestaurantDetails {
+    border: 2px solid $color-gold;
+    background-color: $primary-black;
+    padding: 5px;
+    min-height: 285px;
+    height: 100%;
+    width: 188px;
+    min-width: 188px;
+    margin: auto;
+    overflow: hidden;
+    img {
+        width: 85%;
+        margin: auto;
+    }
+    .title-angeluzzo {
+        font-size: 1.45em;
+        text-align: center;
+        color: $color-gold;
+        word-wrap: break-word;
+        margin-top: 8px;
+        text-transform: uppercase;
+
+    }
+    .hr-restaurant {
+        width: 48%;
+        background-color: $color-gold;
+        height: 2px;
+        display: flex;
+        margin: 8px auto;
+    }    
+    .title-restaurant-ville {
+        font-size: 1.3em;
+        text-align: center;
+        margin-bottom: 8px;
+        color: $white01;
+        text-transform: uppercase;
+    }
+}
+// fin section
+
+// section pour propriétés générales des pages détails d'un restaurant
+.restaurantVille {
+    background-image: $fond-restaurants;
+    @include background;
+    .filter-black {
+        background-color: #000000cf;
+        padding-bottom: 30px;
+        padding-top: 30px;
+        .coordonneesRestaurant {
+            width: 70%;
+            margin: auto;
+            margin-top: 35px;
+            line-height: 30px;
+            letter-spacing: 1px;
+            .angeluzzo-title {
+                color: $color-gold;
+                font-size: 1.7em;
+                font-weight: bold;
+            }
+            .ville-restaurant {
+                color: $white01;
+                font-size: 1.5em;
+            }
+            .contact {
+                width: 93%;
+                border-left: 1px solid $white02;
+                padding: 5px;
+                padding-left: 17px;
+                margin-top: 15px;
+                margin-bottom: 20px;
+                margin-left: 30px;
+                .numero-angel {
+                    font-size: 1.6em;
+                    color: $white01;
+                    svg {
+                        margin-right: 10px;
+                        vertical-align: sub;
+                    }
+                }
+                .adresse-angel {
+                    color: $color-gold02;
+                    font-size: 1.4em;
+                    margin-top: 6px;
+                }
+            }
+        }
+        .info-supp {
+            color: $white01;
+            text-align: center;
+            font-size: 1.2em;
+            svg {
+                margin-right: 8px;
+            }
+        }
+        .map-restaurant {
+            margin-top: 40px;
+            figure {
+                border: 3px solid $color-gold;
+                margin: auto;
+                margin-top: 20px;
+                width: 80vw;
+                max-width: 1072px;
+                height: 35vh;
+                min-height: 280px;
+                .carte-angel {
+                    display: none;
+                }
+                .carte-angel, .skeleton-map {
+                    width: 100%;
+                    height: 100%;
+                }
+                .skeleton-map > div {
+                    width: 100%;
+                    height: 100%;
+                    background: $secondary-black;
+                }
+                
+            }
+        }
+       .autre-restaurant {
+           background-color: $white01;
+           padding: 8px;
+           margin-top: 55px;
+           margin-bottom: 20px;
+           p {
+               color: $primary-black;
+               text-align: center;
+               letter-spacing: 1px;
+               font-family: $josefin-slab-family;
+               font-size: 1.4em;
+               font-weight: 600;
+           }
+           .hr-autre-angel {
+               background-color: $color-gold;
+               width: 40%;
+               margin: auto;
+               margin-top: 5px;
+               margin-bottom: 6px;
+           }
+       }
+
+
+    // section des liens vers autres restaurants angeluzzo récupérée de restaurants.scss
+
+        .title-restaurants {
+            padding-top: 20px;
+            color: $white01;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 0;
+            .hr-title {
+                width: 127px;
+                background-color: $color-gold;
+                height: 3px;
+                margin: 5px 0;
+            }
+            
+            .hr-restaurants01 {
+                margin-left: 30px;
+                align-self: flex-start;
+            }
+            .hr-restaurants02 {
+                margin-right: 30px;
+                align-self: flex-end;
+            }
+            
+        }
+        .title-selection {
+            font-size: 1.3em;
+            text-align: center;
+            padding: 20px;
+            color: $white01;
+        }
+        .grid-restaurants {
+            max-width: inherit;
+            .col-restaurant {
+                padding: 3px;
+            }
+            .row {
+                padding: 6px;
+                justify-content: center;
+            }
+        }
+        .text-fin-restaurants {
+            background-color: #ffffffd4;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            .hr-text-fin {
+                width: 45px;
+                background-color: $color-gold;
+                height: 2px;
+            }
+            .p-text {
+                padding: 10px;
+                font-size: 1.1em;
+                letter-spacing: 1px;
+                text-align: center;
+                color: $primary-black;
+            }
+        }
+        // fin section
+
+        // section bouton vers haut de page
+        .btn-div {
+            margin-top: 20px;
+            .btn-haut-page {
+                cursor:pointer;
+                position: relative;
+                color: $white01;
+                background-color: $color-gold;
+                border: 0;
+                padding: 10px 13px;
+                font-family: $primary-family;
+                font-size: 1.3em;
+                border-top-right-radius:10px;
+                border-bottom-left-radius:10px;
+                transition:all 1s;
+                svg {
+                    margin-left: 3px;
+                    vertical-align: sub;
+                }
+                &:after,&:before{
+                    content:" ";
+                    width:18px;
+                    height:18px;
+                    position:absolute;
+                    border :0px solid $white01;
+                    transition:all 1s;
+                    }
+                &:after{
+                    top:-1px;
+                    left:-1px;
+                    border-top:5px solid $white01;
+                    border-left:5px solid $white01;
+                }
+                &:before{
+                    bottom:-1px;
+                    right:-1px;
+                    border-bottom:5px solid $white01;
+                    border-right:5px solid $white01;
+                }
+                &:hover{
+                    border-top-right-radius:0px;
+                    border-bottom-left-radius:0px;
+                    background: $white02;
+                    color: $secondary-black !important;
+                    &:before,&:after{
+                        
+                        width:110%;
+                        height:120%;
+                        border-color: $color-gold;
+                    }
+                }
+            }
+        }
+
+        // fin section
+    }
+}

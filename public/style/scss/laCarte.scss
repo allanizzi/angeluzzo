@@ -1,0 +1,74 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "mediaCarte.scss";
+
+.laCarte {
+    background-image: $fond-carte;
+    @include background;
+    background-attachment: inherit;
+    .filter-black {
+        background-color: #0009;
+        padding: 20px;
+        .title-carte {
+            color: $white02;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            margin-left: 73px;
+            width: calc(100% - 87px);
+            .hr-title {
+                width: 33px;
+                background-color: $color-gold;
+                max-width: 100px;
+                width: 20%;
+            }
+            .hr-carte01 {
+                margin-right: 2%;
+            }
+            .hr-carte02 {
+                margin-left: 2%;
+            }
+        }
+        .carousel {
+            max-width: 760px;
+            .carousel-items {
+                border-radius: 10px 10px 0 0;
+            }
+        } 
+        .carousel-carte {
+            width: 100%;
+            margin: auto;
+            margin-top: 70px;
+        }
+        .is-overlay {
+            margin-top: 0;
+        }
+        .carousel-boissons {
+            margin-top: 35px;
+        }
+        .title-drink {
+            color: $white02;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            text-align: center;
+            margin-top: 55px;
+            margin-bottom: 25px;
+            .hr-title-drink {
+                width: 33px;
+                background-color: $color-gold;
+                max-width: 100px;
+                width: 20%;
+            }
+            .hr-carte01 {
+                margin-right: 2%;
+            }
+            .hr-carte02 {
+                margin-left: 2%;
+            }
+        }
+    }
+}
+           

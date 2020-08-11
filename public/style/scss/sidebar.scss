@@ -1,0 +1,168 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+html {
+	scroll-behavior: smooth;
+}
+
+.sidebar {
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 30px;
+    background-color: $primary-black;
+    position: fixed;
+    z-index: 1;
+    border-radius: 0 0 48px 0;
+    &:hover {
+        cursor: pointer;
+    }
+}
+  
+.icon-menu {
+  width: 37px;
+}
+
+.menu-sidebar {
+  padding: 1em;
+  padding-bottom: 2.2em;
+  .menu {
+    font-size: 1.5em;
+    .menu-list {
+      line-height: 1.5em;
+      margin-bottom: 20px;
+      li a span {
+        color: $white02;
+      }
+    }
+  }
+}
+
+.logo-sidebar {
+    width: 60%;
+    margin: auto;
+    display: block;
+    cursor: pointer;
+
+}
+
+.sidebar-background {
+    background-color: rgba(28, 28, 28, 0.73) !important;
+}
+
+.sidebar-content {
+    background-image: url("../../Images/sidebar-font.jpg");
+    @include background;
+    box-shadow: 1px 0 13px $grey01 !important;
+}
+
+.sidebar-title {
+    font-size: 2.1em;
+    font-weight: bold;
+    text-align: center;
+    color: $color-gold;
+}
+
+.hr-sidebar {
+    width: 50%;
+    margin: 15px auto;
+    height: 1px;
+    background-color: $white02 !important;
+}
+
+// hover sur les liens du menu
+
+.menu-list a {
+  transition: 0.5s;
+}
+
+.menu-list a:hover {
+  background-color: transparent !important;
+}
+.menu-list a::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 2px;
+  left: 35px;
+  background: $color-gold;
+  transition: transform 0.5s;
+  transform: scaleX(0);
+  transform-origin: right;
+  margin-top: 37px;
+}
+
+.menu-list a:hover::after {
+  transform: scaleX(0.7);
+  transform-origin: left;
+}
+
+.menu-list a.is-active {
+  background-color: transparent !important;
+  
+} 
+
+
+// fin hover sur les liens du menu
+
+
+// Section bouton lien vers la carte
+a {
+    text-decoration: none !important;
+    color: $white01 !important;
+
+    &:hover {
+        color: $white01 !important;
+    }
+}
+
+.lien-carte {
+  position: relative;
+  margin: auto;
+  padding: 19px 23px;
+  transition: all .2s ease;
+  &:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    display: block;
+    border-radius: 28px;
+    background: rgba($color-gold,.58);
+    width: 56px;
+    height: 56px;
+    transition: all .3s ease;
+  }
+  span {
+    position: relative;
+    font-size: 1.5em;
+    line-height: 18px;
+    font-weight: 900;
+    letter-spacing: .18em;
+    vertical-align: middle;
+  }
+  svg {
+    position: relative;
+    top: 10px;
+    margin-left: 10px;
+    fill: none;
+    stroke: $white01;
+    stroke-width: 1;
+    transform: translateX(-5px);
+    transition: all .3s ease;
+  }
+  &:hover {
+    &:before {
+      width: 94%;
+      background: rgba($color-gold,1);
+    }
+    svg {
+      transform: translateX(0);
+    }
+    
+  &:active {
+    transform: scale(.96);
+  }
+}
+}
+// fin section bouton lien vers carte

@@ -1,0 +1,213 @@
+// ordre des colonnes forcées
+.ord1 {
+    order: 1;
+}
+.ord2 {
+    order: 2;
+}
+.ord3 {
+    order: 3;
+}
+.ord4 {
+    order: 4;
+}
+.ord5 {
+    order: 5;
+}
+.ord6 {
+    order: 6;
+}
+.ord7 {
+    order: 7;
+}
+.ord8 {
+    order: 8;
+}
+
+// Gestion font size des cartes pour premier type de grid, avant 600px de width
+@media screen and (min-width: 414px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.1em;
+        }
+    }
+    @media screen and (min-height: 900px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width: 500px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.2em;
+        }
+    }
+    @media screen and (min-height: 900px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.35em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 560px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.3em;
+        }
+    }
+}
+// fin première gestion
+
+// Gestion pour deuxième type de grid, avant 960px de width
+@media screen and (min-width: 600px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.1em;
+        }
+    }
+    @media screen and (min-height: 900px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 705px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.2em;
+        }
+        .grid-decouvrir .title-carte {
+            font-size: 2em;
+        }
+    }
+    @media screen and (min-height: 1024px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.4em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.2em;
+        }
+    }
+    @media screen and (min-height: 1280px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.7em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 825px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.3em;
+        }
+    }
+    @media screen and (min-height: 1112px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.6em;
+            }
+        }
+    }
+}
+
+// fin deuxième gestion
+
+// Gestion pour troisième type de grid, après 960px de width
+@media screen and (min-width: 960px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.2em;
+        }
+    }
+
+    @media screen and (min-height: 1366px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.6em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.3em;
+        }
+    }
+}
+
+@media screen and (min-width: 1290px) {
+    .aDecouvrir {
+        .grid-decouvrir .text-carte {
+            font-size: 1.45em;
+        }
+        .grid-decouvrir .title-carte {
+            font-size: 2.4em;
+        }
+    }
+    @media screen and (min-height: 1024px) {
+        .aDecouvrir {
+            .grid-decouvrir .text-carte {
+                font-size: 1.7em;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1335px) {
+    .aDecouvrir {
+        .grid-decouvrir .v-card {
+            min-height: 335px;
+        }
+        .grid-decouvrir .text-carte {
+            font-size: 1.6em;
+        }
+    }
+}
+
+// fin gestion troisième
+
+@media screen and (min-width: 600px) {
+    .hidden600 {
+        display: none;
+    }
+    .hidden960 {
+        display: block !important;
+    }
+    .image-terrasse {
+        background-image: $terrasseAngel02 !important;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .hidden960 {
+        display: none !important;
+    }
+    .display960 {
+        display: block !important;
+    }
+    .image-terrasse {
+        background-image: $terrasseAngel !important;
+    }
+}
+

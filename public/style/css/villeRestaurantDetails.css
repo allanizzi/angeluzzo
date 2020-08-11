@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Cardo", serif;
+}
+
+@media screen and (min-width: 440px) {
+  .restaurantVille .filter-black .coordonneesRestaurant .contact {
+    width: unset !important;
+    margin-left: 25% !important;
+  }
+}
+@media screen and (min-width: 565px) {
+  .restaurantVille .filter-black .coordonneesRestaurant {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: space-between;
+  }
+  .restaurantVille .filter-black .coordonneesRestaurant .contact {
+    margin-left: unset !important;
+  }
+  .restaurantVille .filter-black .autre-restaurant p {
+    font-size: 1.6em !important;
+  }
+}
+@media screen and (min-width: 724px) {
+  .logoAngelRestaurantDetails {
+    width: 30% !important;
+    max-width: 250px !important;
+  }
+  .logoAngelRestaurantDetails .title-angeluzzo {
+    font-size: 1.8em !important;
+  }
+  .logoAngelRestaurantDetails .hr-restaurant {
+    width: 40% !important;
+  }
+  .logoAngelRestaurantDetails .title-restaurant-ville {
+    font-size: 1.4em !important;
+  }
+
+  .restaurantVille .filter-black .map-restaurant figure {
+    height: 33vh !important;
+    max-height: 445px !important;
+  }
+  .restaurantVille .filter-black .info-supp {
+    font-size: 1.5em !important;
+  }
+  .restaurantVille .filter-black .autre-restaurant {
+    margin-top: 80px !important;
+    margin-bottom: 40px !important;
+  }
+  .restaurantVille .filter-black .autre-restaurant p {
+    font-size: 1.9em !important;
+  }
+  .restaurantVille .filter-black .autre-restaurant .hr-autre-angel {
+    max-width: 275px !important;
+  }
+}
+@media screen and (min-width: 960px) {
+  .restaurantVille .filter-black .grid-restaurants {
+    max-width: 90vw !important;
+  }
+  .restaurantVille .filter-black .grid-restaurants .row {
+    justify-content: space-around !important;
+  }
+
+  .logoAngelRestaurantHome .title-angeluzzo {
+    font-size: 1.7em !important;
+  }
+  .logoAngelRestaurantHome .title-restaurant-ville {
+    font-size: 1.5em !important;
+  }
+}
+@media screen and (min-width: 1314px) {
+  .logoAngelRestaurantDetails .title-angeluzzo {
+    font-size: 2.1em !important;
+  }
+  .logoAngelRestaurantDetails .title-restaurant-ville {
+    font-size: 1.6em !important;
+  }
+
+  .restaurantVille .filter-black .grid-restaurants {
+    max-width: 80vw !important;
+  }
+}
+.ord1 {
+  order: 1;
+}
+
+.ord2 {
+  order: 2;
+}
+
+.ord3 {
+  order: 3;
+}
+
+.ord4 {
+  order: 4;
+}
+
+.ord5 {
+  order: 5;
+}
+
+.ord6 {
+  order: 6;
+}
+
+.ord7 {
+  order: 7;
+}
+
+.ord8 {
+  order: 8;
+}
+
+.logoAngelRestaurantDetails {
+  border: 2px solid #98792C;
+  background-color: #151716;
+  padding: 5px;
+  min-height: 285px;
+  height: 100%;
+  width: 188px;
+  min-width: 188px;
+  margin: auto;
+  overflow: hidden;
+}
+.logoAngelRestaurantDetails img {
+  width: 85%;
+  margin: auto;
+}
+.logoAngelRestaurantDetails .title-angeluzzo {
+  font-size: 1.45em;
+  text-align: center;
+  color: #98792C;
+  word-wrap: break-word;
+  margin-top: 8px;
+  text-transform: uppercase;
+}
+.logoAngelRestaurantDetails .hr-restaurant {
+  width: 48%;
+  background-color: #98792C;
+  height: 2px;
+  display: flex;
+  margin: 8px auto;
+}
+.logoAngelRestaurantDetails .title-restaurant-ville {
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 8px;
+  color: #f0f0f0;
+  text-transform: uppercase;
+}
+
+.restaurantVille {
+  background-image: url("../../Images/background-restaurants.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.restaurantVille .filter-black {
+  background-color: #000000cf;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.restaurantVille .filter-black .coordonneesRestaurant {
+  width: 70%;
+  margin: auto;
+  margin-top: 35px;
+  line-height: 30px;
+  letter-spacing: 1px;
+}
+.restaurantVille .filter-black .coordonneesRestaurant .angeluzzo-title {
+  color: #98792C;
+  font-size: 1.7em;
+  font-weight: bold;
+}
+.restaurantVille .filter-black .coordonneesRestaurant .ville-restaurant {
+  color: #f0f0f0;
+  font-size: 1.5em;
+}
+.restaurantVille .filter-black .coordonneesRestaurant .contact {
+  width: 93%;
+  border-left: 1px solid #d7d7d7;
+  padding: 5px;
+  padding-left: 17px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+}
+.restaurantVille .filter-black .coordonneesRestaurant .contact .numero-angel {
+  font-size: 1.6em;
+  color: #f0f0f0;
+}
+.restaurantVille .filter-black .coordonneesRestaurant .contact .numero-angel svg {
+  margin-right: 10px;
+  vertical-align: sub;
+}
+.restaurantVille .filter-black .coordonneesRestaurant .contact .adresse-angel {
+  color: #BF9732;
+  font-size: 1.4em;
+  margin-top: 6px;
+}
+.restaurantVille .filter-black .info-supp {
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 1.2em;
+}
+.restaurantVille .filter-black .info-supp svg {
+  margin-right: 8px;
+}
+.restaurantVille .filter-black .map-restaurant {
+  margin-top: 40px;
+}
+.restaurantVille .filter-black .map-restaurant figure {
+  border: 3px solid #98792C;
+  margin: auto;
+  margin-top: 20px;
+  width: 80vw;
+  max-width: 1072px;
+  height: 35vh;
+  min-height: 280px;
+}
+.restaurantVille .filter-black .map-restaurant figure .carte-angel {
+  display: none;
+}
+.restaurantVille .filter-black .map-restaurant figure .carte-angel, .restaurantVille .filter-black .map-restaurant figure .skeleton-map {
+  width: 100%;
+  height: 100%;
+}
+.restaurantVille .filter-black .map-restaurant figure .skeleton-map > div {
+  width: 100%;
+  height: 100%;
+  background: #1e1e1e;
+}
+.restaurantVille .filter-black .autre-restaurant {
+  background-color: #f0f0f0;
+  padding: 8px;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+.restaurantVille .filter-black .autre-restaurant p {
+  color: #151716;
+  text-align: center;
+  letter-spacing: 1px;
+  font-family: "Josefin Slab", serif;
+  font-size: 1.4em;
+  font-weight: 600;
+}
+.restaurantVille .filter-black .autre-restaurant .hr-autre-angel {
+  background-color: #98792C;
+  width: 40%;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 6px;
+}
+.restaurantVille .filter-black .title-restaurants {
+  padding-top: 20px;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+.restaurantVille .filter-black .title-restaurants .hr-title {
+  width: 127px;
+  background-color: #98792C;
+  height: 3px;
+  margin: 5px 0;
+}
+.restaurantVille .filter-black .title-restaurants .hr-restaurants01 {
+  margin-left: 30px;
+  align-self: flex-start;
+}
+.restaurantVille .filter-black .title-restaurants .hr-restaurants02 {
+  margin-right: 30px;
+  align-self: flex-end;
+}
+.restaurantVille .filter-black .title-selection {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 20px;
+  color: #f0f0f0;
+}
+.restaurantVille .filter-black .grid-restaurants {
+  max-width: inherit;
+}
+.restaurantVille .filter-black .grid-restaurants .col-restaurant {
+  padding: 3px;
+}
+.restaurantVille .filter-black .grid-restaurants .row {
+  padding: 6px;
+  justify-content: center;
+}
+.restaurantVille .filter-black .text-fin-restaurants {
+  background-color: #ffffffd4;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.restaurantVille .filter-black .text-fin-restaurants .hr-text-fin {
+  width: 45px;
+  background-color: #98792C;
+  height: 2px;
+}
+.restaurantVille .filter-black .text-fin-restaurants .p-text {
+  padding: 10px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #151716;
+}
+.restaurantVille .filter-black .btn-div {
+  margin-top: 20px;
+}
+.restaurantVille .filter-black .btn-div .btn-haut-page {
+  cursor: pointer;
+  position: relative;
+  color: #f0f0f0;
+  background-color: #98792C;
+  border: 0;
+  padding: 10px 13px;
+  font-family: "Cardo", serif;
+  font-size: 1.3em;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 1s;
+}
+.restaurantVille .filter-black .btn-div .btn-haut-page svg {
+  margin-left: 3px;
+  vertical-align: sub;
+}
+.restaurantVille .filter-black .btn-div .btn-haut-page:after, .restaurantVille .filter-black .btn-div .btn-haut-page:before {
+  content: " ";
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  border: 0px solid #f0f0f0;
+  transition: all 1s;
+}
+.restaurantVille .filter-black .btn-div .btn-haut-page:after {
+  top: -1px;
+  left: -1px;
+  border-top: 5px solid #f0f0f0;
+  border-left: 5px solid #f0f0f0;
+}
+.restaurantVille .filter-black .btn-div .btn-haut-page:before {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 5px solid #f0f0f0;
+  border-right: 5px solid #f0f0f0;
+}
+.restaurantVille .filter-black .btn-div .btn-haut-page:hover {
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  background: #d7d7d7;
+  color: #1e1e1e !important;
+}
+.restaurantVille .filter-black .btn-div .btn-haut-page:hover:before, .restaurantVille .filter-black .btn-div .btn-haut-page:hover:after {
+  width: 110%;
+  height: 120%;
+  border-color: #98792C;
+}
+
+/*# sourceMappingURL=villeRestaurantDetails.css.map */

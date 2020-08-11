@@ -1,0 +1,42 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "mediaLoadScreen.scss";
+
+
+.hero-load {
+    background-image: $fond-LoadingScreen;
+    @include background;
+}
+
+
+.logoPngLoad {
+    width: 80%; 
+    margin: auto;
+    border: 3px solid $color-gold;
+    background-color: $primary-black;
+}
+
+
+.title-angeluzzo-load {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    color: $white02;
+}
+
+.title-restaurant-load {
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 1em;
+    color: $grey01;
+    font-family: $secondary-family;
+}
+
+// Media query du logo angeluzzo à la page de chargement
+@include mediaLoadScreen;
+
+.spinner-load {
+    margin: auto;
+    color: $white02;
+}

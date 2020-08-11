@@ -1,0 +1,43 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import 'mediaErrorPage.scss';
+
+
+.errorPage {
+    background-color: #ffffff;
+    background-image: linear-gradient(0deg, #ffffff 0%, #292826 91%);
+    .filter-black {
+        padding: 20px;
+        .contenu-hero {
+            margin-top: 20px;
+            .title-oups {
+                color: $white01;
+                margin: auto;
+                font-size: 2.4em;
+                font-family: $josefin-family;
+                letter-spacing: 3px;
+                margin-bottom: 15px;
+            }
+            .logoError {
+                width: 100%;
+                margin: auto;
+                max-width: 470px;
+            }
+            .loader-progress {
+                width: 60%;
+                margin: auto;
+                margin-top: 20px;
+            }
+            .text-error {
+                font-size: 1.3em;
+                color: $secondary-black;
+                text-align: center;
+                letter-spacing: 3px;
+                line-height: 1.8em;
+                width: 100%;
+                font-family: $josefin-family;
+                padding: 15px;
+            }
+        }
+    }
+}

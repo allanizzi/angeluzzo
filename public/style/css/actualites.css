@@ -1,0 +1,267 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Cardo", serif;
+}
+
+@media screen and (min-width: 550px) {
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-covid .text-covid {
+    font-size: 1.3em !important;
+    line-height: 1.6em;
+    white-space: inherit !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .title-emporter {
+    font-size: 1.7em !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .title-emporter-nouveau {
+    font-size: 2em !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-emporter01 .text-emporter, .actualites .filter-black .div-carousel-actualites .carousel-items .div-emporter02 .text-emporter {
+    font-size: 1.5em !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-emporter-remise {
+    font-size: 1.7em !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-emporter03 .text-thionville {
+    font-size: 1.2em !important;
+  }
+}
+@media screen and (min-width: 700px) {
+  .actualites .filter-black {
+    padding: 20px !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-emporter-remise {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .title-covid {
+    font-size: 1.8em !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-covid .text-covid {
+    font-size: 1.4em !important;
+    line-height: 1.8em !important;
+    letter-spacing: 2px !important;
+  }
+}
+@media screen and (min-width: 760px) {
+  .div-carousel-actualites .carousel-items .title-emporter {
+    font-size: 1.8em !important;
+  }
+  .div-carousel-actualites .carousel-items .title-emporter-nouveau {
+    font-size: 2.3em !important;
+  }
+  .div-carousel-actualites .carousel-items .div-emporter01 .text-emporter, .div-carousel-actualites .carousel-items .div-emporter02 .text-emporter {
+    font-size: 1.6em !important;
+  }
+  .div-carousel-actualites .carousel-items .image-logo-angel {
+    max-width: 143px !important;
+  }
+
+  .title-actualites {
+    font-size: 2.6em;
+  }
+  .title-actualites .hr-title {
+    width: 100px !important;
+  }
+}
+@media screen and (min-width: 870px) {
+  .div-carousel-actualites .carousel-items .div-emporter01 .text-emporter, .div-carousel-actualites .carousel-items .div-emporter02 .text-emporter {
+    text-align: center !important;
+    line-height: 2em;
+    letter-spacing: 2px !important;
+  }
+
+  .title-actualites {
+    font-size: 2.6em;
+  }
+  .title-actualites .hr-title {
+    width: 100px !important;
+  }
+}
+@media screen and (min-width: 1020px) {
+  .title-actualites {
+    font-size: 3em;
+  }
+  .title-actualites .hr-title {
+    width: 130px !important;
+  }
+  .title-actualites .hr-title {
+    height: 3px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .actualites .filter-black .div-carousel-actualites .carousel-items {
+    background-color: #403f3fb5;
+    padding: 10px;
+    border-radius: 5px;
+    width: 70%;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-emporter01 .text-emporter, .actualites .filter-black .div-carousel-actualites .carousel-items .div-emporter02 .text-emporter {
+    line-height: 1.6em !important;
+  }
+}
+@media screen and (min-width: 1260px) {
+  .actualites .filter-black .div-carousel-actualites .carousel-items .title-covid {
+    font-size: 2em !important;
+  }
+  .actualites .filter-black .div-carousel-actualites .carousel-items .div-covid .text-covid {
+    font-size: 1.6em !important;
+  }
+}
+.actualites {
+  background-image: url("../../Images/background-site-portrait.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.actualites .filter-black {
+  background-color: #000c;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.title-actualites {
+  color: #d7d7d7;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.title-actualites .hr-title {
+  width: 70px;
+  background-color: #98792C;
+}
+.title-actualites .hr-actu01 {
+  margin-right: 2%;
+}
+.title-actualites .hr-actu02 {
+  margin-left: 2%;
+}
+
+.div-carousel-actualites .carousel-items {
+  background-color: #403f3fb5;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  height: 560px;
+  margin: auto;
+  margin-top: 35px;
+}
+.div-carousel-actualites .carousel-items .title-covid, .div-carousel-actualites .carousel-items .title-emporter {
+  color: #f0f0f0;
+  font-size: 1.4em;
+  margin-left: 10px;
+  letter-spacing: 1px;
+}
+.div-carousel-actualites .carousel-items .hr-covid, .div-carousel-actualites .carousel-items .hr-emporter {
+  background-color: #98792C;
+  width: 240px;
+  margin-left: 15%;
+  margin-top: 3px;
+}
+.div-carousel-actualites .carousel-items .title-emporter-nouveau {
+  font-size: 1.8em;
+  color: #f0f0f0;
+  text-align: center;
+}
+.div-carousel-actualites .carousel-items .div-covid {
+  margin: 10px;
+  margin-top: 15px;
+  color: #f0f0f0;
+  overflow: hidden;
+}
+.div-carousel-actualites .carousel-items .div-covid .text-covid {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  white-space: break-spaces;
+}
+.div-carousel-actualites .carousel-items .div-covid .text01 {
+  text-align: end;
+}
+.div-carousel-actualites .carousel-items .div-covid .text02 {
+  text-align: start;
+}
+.div-carousel-actualites .carousel-items .div-emporter01 {
+  margin: 10px;
+  margin-top: 20px;
+  color: #f0f0f0;
+  overflow: hidden;
+}
+.div-carousel-actualites .carousel-items .div-emporter01 .text-emporter {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  white-space: break-spaces;
+  text-align: start;
+}
+.div-carousel-actualites .carousel-items .div-emporter-remise {
+  color: #f0f0f0;
+  font-size: 1.4em;
+  border: 3px solid #98792C;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.div-carousel-actualites .carousel-items .div-emporter02 {
+  color: #f0f0f0;
+  margin: 10px;
+  margin-top: 20px;
+}
+.div-carousel-actualites .carousel-items .div-emporter02 .text-commande {
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  white-space: break-spaces;
+}
+.div-carousel-actualites .carousel-items .hr-fin {
+  background-color: #98792C;
+  width: 45%;
+  margin: 14px auto;
+}
+.div-carousel-actualites .carousel-items .div-emporter03 {
+  color: #f0f0f0;
+  margin: 10px;
+  margin-top: 20px;
+}
+.div-carousel-actualites .carousel-items .div-emporter03 .text-thionville {
+  font-size: 1em;
+  letter-spacing: 1px;
+  white-space: break-spaces;
+  text-align: end;
+}
+.div-carousel-actualites .carousel-items .infos02 {
+  margin-top: 25px;
+}
+.div-carousel-actualites .carousel-items .image-covid-masque {
+  float: left;
+  width: 37%;
+  border-radius: 5px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+  max-width: 198px;
+}
+.div-carousel-actualites .carousel-items .image-covid-gel {
+  float: right;
+  width: 50%;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  max-width: 265px;
+}
+.div-carousel-actualites .carousel-items .image-logo-angel {
+  float: right;
+  width: 40%;
+  border-radius: 5px;
+  max-width: 125px;
+}
+
+.plat {
+  width: 30%;
+}
+
+/*# sourceMappingURL=actualites.css.map */

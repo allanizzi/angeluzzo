@@ -1,0 +1,147 @@
+@media screen and (min-width: 600px) {
+    .equipe {
+        .filter-white {
+            .title-equipe {
+                font-size: 2.4em !important;
+                padding-top: 15px;
+                .hr-title {
+                    width: 100px !important;
+                    height: 3px !important;
+                }
+            } 
+        }
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .equipe {
+        .filter-white {
+            .title-equipe {
+                font-size: 2.5em !important;
+                padding-top: 15px;
+            } 
+            .carte-equipe {
+                max-width: 100% !important;
+                .img-carte {
+                    width: 100% !important;
+                    left: auto !important;
+                    max-width: 100% !important;
+                    height: 270px !important;
+                    border-radius: 5px 5px 0 0 !important;
+                }
+                .titre-carte {
+                    font-size: 1.8em !important;
+                }
+                .text-equipe {
+                    font-size: 1.3em !important;
+                    line-height: 35px !important;
+                }
+                .text-slogan {
+                    font-size: 1.6em !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .equipe {
+        .filter-white .carte-equipe {
+            .text-carte-hidden {
+                display: block !important;
+            }
+            .text-carte-displayed {
+                display: none !important;
+            }
+            .v-card__actions {
+                justify-content: center;
+                svg {
+                    margin-left: 30px !important;
+                }
+            }
+            .spacer {
+                flex-grow: inherit !important;
+            }
+            .btn-hidden {
+                display: none;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .equipe {
+        .filter-white {
+            .title-equipe .hr-title {
+                width: 130px !important;
+                height: 3px !important;
+            }
+            .carte-equipe {
+                .img-carte {
+                    height: 320px !important;
+                    &::before {
+                        position: absolute;
+                        top: 0;
+                        left: -75%;
+                        z-index: 2;
+                        display: block;
+                        content: '';
+                        width: 50%;
+                        height: 100%;
+                        background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+                        background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+                        -webkit-transform: skewX(-25deg);
+                        transform: skewX(-25deg);
+                    }
+                    &:hover::before {
+                        -webkit-animation: shine 1s;
+                        animation: shine 1s;
+                    }
+                }
+                .v-card__text {
+                    padding: 25px !important;
+                }
+                .titre-carte {
+                    font-size: 1.8em !important;
+                    padding: 22px !important;
+                }
+                .text-equipe {
+                    font-size: 1.45em !important;
+                }
+                .text-slogan {
+                    font-size: 2.1em !important;
+                    padding: 15px !important;
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1365px) {
+    .equipe {
+        .filter-white {
+            .title-equipe {
+                font-size: 2.8em;
+                padding-top: 20px;
+            } 
+            .carte-equipe {
+                .img-carte {
+                    height: 425px !important;
+                }
+
+            }
+        }
+    }
+}
+
+@-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}

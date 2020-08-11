@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Cardo", serif;
+}
+
+@media screen and (min-width: 480px) {
+  .lesAvis .div-carousel-avis .carousel-items {
+    height: 505px !important;
+  }
+}
+@media screen and (min-width: 600px) {
+  .lesAvis .div-carousel-avis .carousel-items {
+    height: 435px !important;
+  }
+}
+@media screen and (min-width: 730px) {
+  .lesAvis .div-carousel-avis .carousel-items {
+    height: 390px !important;
+  }
+}
+@media screen and (min-width: 1110px) {
+  .lesAvis .div-carousel-avis .carte-avis .text-avis {
+    font-size: 1.5em !important;
+  }
+}
+.lesAvis {
+  display: flex;
+  background-color: #f7f7f7;
+}
+.lesAvis .div-carousel-avis .carousel-arrow .icon {
+  color: #f0f0f0;
+  background: #98792C;
+  border: none;
+}
+.lesAvis .div-carousel-avis .carousel .carousel-indicator {
+  padding-bottom: 25px;
+}
+.lesAvis .div-carousel-avis .carousel .carousel-indicator .indicator-item.is-active .indicator-style, .lesAvis .div-carousel-avis .carousel .carousel-indicator .carousel .carousel-indicator .indicator-item .indicator-style:hover {
+  background: #98792C;
+}
+.lesAvis .div-carousel-avis .carousel .carousel-indicator .indicator-item .indicator-style {
+  border-color: #98792C;
+}
+.lesAvis .div-carousel-avis .carousel-items {
+  height: 615px;
+  width: 100vw;
+  min-width: 350px;
+}
+.lesAvis .div-carousel-avis .carte-avis {
+  margin: auto;
+  padding: 20px;
+  background-color: transparent;
+}
+.lesAvis .div-carousel-avis .carte-avis .couverts-icon {
+  position: absolute;
+  width: 133px;
+  right: 30px;
+  margin-top: 5px;
+  filter: opacity(45%);
+}
+.lesAvis .div-carousel-avis .carte-avis .title-avis {
+  font-family: "Arvo", serif;
+  color: #5b5b5b;
+  padding-left: 30px;
+}
+.lesAvis .div-carousel-avis .carte-avis .title-commentaire {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+.lesAvis .div-carousel-avis .carte-avis .text-avis {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 300;
+  font-size: 1.35em;
+  color: #1e1e1e;
+  font-style: italic;
+  text-align: center;
+  padding: 20px 48px 20px 48px;
+  line-height: 1.3em;
+}
+.lesAvis .div-carousel-avis .carte-avis .date-avis {
+  padding-right: 55px;
+  margin-bottom: 20px;
+}
+.lesAvis .div-carousel-avis .carte-avis .date-avis span {
+  float: right;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.6em;
+  color: #151716;
+}
+
+/*# sourceMappingURL=avis.css.map */

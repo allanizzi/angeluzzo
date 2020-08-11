@@ -1,0 +1,160 @@
+@media screen and (min-width: 550px) {
+    .actualites {
+        .filter-black {
+            .div-carousel-actualites .carousel-items .div-covid {
+                .text-covid {
+                    font-size: 1.3em !important;
+                    line-height: 1.6em;
+                    white-space: inherit !important;
+                }
+            }
+            .div-carousel-actualites .carousel-items {
+                .title-emporter {
+                    font-size: 1.7em !important;
+                }
+                
+                .title-emporter-nouveau {
+                    font-size: 2em !important;
+                }
+                
+                .div-emporter01, .div-emporter02 {
+                    .text-emporter {
+                        font-size: 1.5em !important;
+                    }
+                }
+
+                .div-emporter-remise {
+                    font-size: 1.7em !important;
+                }
+
+                .div-emporter03 .text-thionville {
+                    font-size: 1.2em !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .actualites {
+        .filter-black {
+            padding: 20px !important;
+            .div-carousel-actualites .carousel-items {
+                
+                .div-emporter-remise {
+                    width: 60%;
+                    margin: auto;
+                    margin-top: 20px;
+                }
+                .title-covid {
+                    font-size: 1.8em !important;
+                }
+                .div-covid {
+                    .text-covid {
+                        font-size: 1.4em !important;
+                        line-height: 1.8em !important;
+                        letter-spacing: 2px !important;
+                    }
+                } 
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 760px) {
+    .div-carousel-actualites .carousel-items {
+        .title-emporter {
+            font-size: 1.8em !important;
+        }
+        
+        .title-emporter-nouveau {
+            font-size: 2.3em !important;
+        }
+        
+        .div-emporter01, .div-emporter02 {
+            .text-emporter {
+                font-size: 1.6em !important;
+            }
+        }
+
+        .image-logo-angel {
+            max-width: 143px !important;
+        }
+    }
+    
+    .title-actualites {
+        font-size: 2.6em;
+        .hr-title {
+            width: 100px !important;
+        }
+    }
+}
+
+@media screen and (min-width: 870px) {
+    .div-carousel-actualites .carousel-items {
+        
+        .div-emporter01, .div-emporter02 {
+            .text-emporter {
+                text-align: center !important;
+                line-height: 2em;
+                letter-spacing: 2px !important;
+            }
+        }
+
+    }
+    
+    .title-actualites {
+        font-size: 2.6em;
+        .hr-title {
+            width: 100px !important;
+        }
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .title-actualites {
+        font-size: 3em;
+        .hr-title {
+            width: 130px !important;
+        }
+        .hr-title {
+            height: 3px;
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .actualites {
+        .filter-black {
+            .div-carousel-actualites .carousel-items {
+                background-color: #403f3fb5;
+                padding: 10px;
+                border-radius: 5px;
+                width: 70%;
+
+                .div-emporter01, .div-emporter02 {
+                    .text-emporter {
+                        line-height: 1.6em !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1260px) {
+    .actualites {
+        .filter-black {
+            .div-carousel-actualites .carousel-items {
+                .title-covid {
+                    font-size: 2em !important;
+                }
+                .div-covid {
+                    .text-covid {
+                        font-size: 1.6em !important;
+                    }
+                } 
+            }
+        }
+    }
+}

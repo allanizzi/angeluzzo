@@ -1,0 +1,68 @@
+// Import des polices du site
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap');
+
+// loading and homepage screen image
+$fond-LoadingScreen: url('../../Images/loading-screen.jpg');
+
+// background site
+$fond-site-paysage: url('../../Images/background-site-paysage.jpg');
+$fond-site-portrait: url('../../Images/background-site-portrait.jpg');
+
+// background fond section produits
+$fond-produits: url('../../Images/background-produits.jpg');
+
+// angeluzzo logo
+$logoAngel: url('../../Images/logo-angeluzzo.jpg');
+
+// images section à découvrir
+$terrasseAngel : url("../../Images/terrasseAngel.jpg");
+$terrasseAngel02 : url("../../Images/terrasse.jpg");
+$tortellinis : url("../../Images/tortellinis.jpg");
+$pizza : url("../../Images/pizza.jpg");
+$anniversaire : url("../../Images/anniversaire.jpg");
+
+// images section equipe
+$equipe : url("../../Images/equipe.jpg");
+
+// images section nos restaurants
+$fond-restaurants: url("../../Images/background-restaurants.jpg");
+
+// images section la carte
+$fond-carte: url("../../Images/background-carte.jpg");
+
+// images section page error 
+$fond-error: url("../../Images/background-error.jpg");
+$cuisinier-error: url("../../Images/image-error.jpg");
+
+
+//color
+$color-gold: #98792C;
+$color-gold02: #BF9732;
+
+$white01: rgb(240, 240, 240);
+$white02: #d7d7d7;
+
+$primary-black: #151716;
+$secondary-black: #1e1e1e;
+$third-black: #302F2E;
+
+$black02: #444;
+$black03: #5b5b5b;
+
+$grey01: #A6A7A9;
+
+
+// font-family
+$primary-family: 'Cardo', serif;
+$secondary-family: 'Roboto', sans-serif;
+$arvo-family: 'Arvo', serif;
+$josefin-family: 'Josefin Sans', sans-serif;
+$josefin-slab-family: 'Josefin Slab', serif;
+
+body {
+    font-family: $primary-family;
+}

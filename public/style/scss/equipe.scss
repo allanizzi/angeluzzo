@@ -1,0 +1,85 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "mediaEquipe.scss";
+
+.equipe {
+    background-image: $fond-site-portrait;
+    @include background;
+    .filter-white {
+        background-color: #ffffff9c;
+        padding-bottom: 20px;
+        .title-equipe {
+            padding-top: 8px default;
+            color: $third-black;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            align-items: center;
+            .hr-title {
+                width: 45px;
+                background-color: $color-gold;
+                height: 2px;
+            }
+            
+            .hr-equipe01 {
+                margin-right: 2%;
+            }
+            .hr-equipe02 {
+                margin-left: 2%;
+            }
+        }
+        .carte-equipe {
+            margin: auto;
+            width: 70%;
+            box-shadow: 2px 2px 5px $black03;
+            .img-carte {
+                background-image: $equipe;
+                @include background;
+                background-attachment: inherit;
+                box-shadow: 0px 1px 5px white;
+                width: 120%;
+                left: -10%;
+                border-radius: 5px;
+                max-width: 120%;
+            }
+            .titre-carte {
+                font-weight: bold;
+                font-size: 1.3em;
+            }
+            .text-equipe {
+                color: $white02;
+                text-align: center;
+                letter-spacing: 1px;
+                font-size: 1.15em;
+            }
+            .text-carte-hidden {
+                display: none;
+            }
+            .theme--dark.v-btn.v-btn--icon {
+                color: $color-gold;
+            }
+            .v-btn--flat, .v-btn--outlined, .v-btn--text {
+                background-color: $white01;
+            }
+            .mdi::before, .mdi-set {
+                font-size: 38px;
+            }
+            .text-equipe02 {
+                margin-bottom: 30px;
+            }
+            .hr-text {
+                background-color: $color-gold;
+                width: 60%;
+                margin: auto;
+            }
+            .text-slogan {
+                font-weight: bold;
+                font-style: italic;
+                color: $white02;
+                font-size: 1.3em;
+                text-align: end;
+                letter-spacing: 2px;
+            }
+        }
+    }
+}

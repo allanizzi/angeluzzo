@@ -1,0 +1,63 @@
+@import "variables.scss";
+@import "mixins.scss";
+@import "mediaPresentation";
+
+.presentation {
+    background-image: $fond-site-portrait;
+    @include background;
+    border: 2px solid $color-gold;
+}
+
+
+
+.title-presentation {
+    color: $black02;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    .hr-title {
+        width: 70px;
+        background-color: $color-gold;
+    }
+    .hr-presentation {
+        margin-left: 2%;
+    }
+}
+
+.card {
+    box-shadow: none; 
+}
+
+.card-terrasse {
+    background-color: rgba(221, 221, 221, 0.86);
+    .card-content .content {
+        font-size: 1.1em;
+        color: $secondary-black;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 29px;
+        .first-letter {
+            font-size: 2.7em;
+            color: $color-gold;
+        }
+    }
+}
+
+.card-plats {
+    background-color: rgba(221, 221, 221, 0.86);
+    .card-image .image-plats {
+        display: flex;
+    }
+    .card-content .content {
+        font-size: 1.1em;
+        color: $secondary-black;
+        text-align: center;
+        letter-spacing: 1px;
+        line-height: 29px;
+        .first-letter {
+            font-size: 2.7em;
+            color: $color-gold;
+        }
+    }
+}

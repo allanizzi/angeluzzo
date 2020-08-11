@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Cardo", serif;
+}
+
+@media screen and (min-width: 450px) {
+  .restaurants .filter-black .title-restaurants .hr-title {
+    width: 150px !important;
+  }
+  .restaurants .filter-black .title-restaurants .hr-restaurants01 {
+    margin-left: 50px !important;
+  }
+  .restaurants .filter-black .title-restaurants .hr-restaurants02 {
+    margin-right: 50px !important;
+  }
+}
+@media screen and (min-width: 600px) {
+  .restaurants .filter-black .title-restaurants {
+    font-size: 2.6em;
+  }
+  .restaurants .filter-black .title-restaurants .hr-title {
+    width: 30% !important;
+    max-width: 265px;
+  }
+  .restaurants .filter-black .title-restaurants .hr-restaurants01 {
+    margin-left: 10% !important;
+  }
+  .restaurants .filter-black .title-restaurants .hr-restaurants02 {
+    margin-right: 10% !important;
+  }
+  .restaurants .filter-black .title-selection {
+    font-size: 1.5em !important;
+    letter-spacing: 2px;
+  }
+  .restaurants .filter-black .text-fin-restaurants .hr-text-fin {
+    width: 11% !important;
+  }
+  .restaurants .filter-black .text-fin-restaurants .p-text {
+    font-size: 1.4em !important;
+  }
+}
+@media screen and (min-width: 900px) {
+  .restaurants .filter-black .title-restaurants .hr-restaurants01 {
+    margin-left: 17% !important;
+  }
+  .restaurants .filter-black .title-restaurants .hr-restaurants02 {
+    margin-right: 17% !important;
+  }
+  .restaurants .filter-black .title-selection {
+    letter-spacing: 4px;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .restaurants .filter-black .title-restaurants .hr-restaurants01 {
+    margin-left: 22% !important;
+  }
+  .restaurants .filter-black .title-restaurants .hr-restaurants02 {
+    margin-right: 22% !important;
+  }
+  .restaurants .filter-black .title-selection {
+    font-size: 1.8em !important;
+    padding: 35px;
+  }
+  .restaurants .filter-black .text-fin-restaurants .p-text {
+    font-size: 1.6em !important;
+    letter-spacing: 3px !important;
+  }
+}
+@media screen and (min-width: 1424px) {
+  .restaurants .filter-black .title-restaurants .hr-restaurants01 {
+    margin-left: 26% !important;
+  }
+  .restaurants .filter-black .title-restaurants .hr-restaurants02 {
+    margin-right: 26% !important;
+  }
+}
+.ord1 {
+  order: 1;
+}
+
+.ord2 {
+  order: 2;
+}
+
+.ord3 {
+  order: 3;
+}
+
+.ord4 {
+  order: 4;
+}
+
+.ord5 {
+  order: 5;
+}
+
+.ord6 {
+  order: 6;
+}
+
+.ord7 {
+  order: 7;
+}
+
+.ord8 {
+  order: 8;
+}
+
+.restaurants {
+  background-image: url("../../Images/background-restaurants.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.restaurants .filter-black {
+  background-color: #0009;
+  padding-bottom: 30px;
+}
+.restaurants .filter-black .title-restaurants {
+  padding-top: 20px;
+  color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 0;
+}
+.restaurants .filter-black .title-restaurants .hr-title {
+  width: 127px;
+  background-color: #98792C;
+  height: 3px;
+  margin: 5px 0;
+}
+.restaurants .filter-black .title-restaurants .hr-restaurants01 {
+  margin-left: 30px;
+  align-self: flex-start;
+}
+.restaurants .filter-black .title-restaurants .hr-restaurants02 {
+  margin-right: 30px;
+  align-self: flex-end;
+}
+.restaurants .filter-black .title-selection {
+  font-size: 1.3em;
+  text-align: center;
+  padding: 20px;
+  color: #f0f0f0;
+}
+.restaurants .filter-black .grid-restaurants {
+  max-width: inherit;
+}
+.restaurants .filter-black .grid-restaurants .col-restaurant {
+  padding: 3px;
+}
+.restaurants .filter-black .grid-restaurants .row {
+  padding: 6px;
+  justify-content: center;
+}
+.restaurants .filter-black .text-fin-restaurants {
+  background-color: #ffffffd4;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.restaurants .filter-black .text-fin-restaurants .hr-text-fin {
+  width: 45px;
+  background-color: #98792C;
+  height: 2px;
+}
+.restaurants .filter-black .text-fin-restaurants .p-text {
+  padding: 10px;
+  font-size: 1.1em;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #151716;
+}
+
+/*# sourceMappingURL=restaurants.css.map */

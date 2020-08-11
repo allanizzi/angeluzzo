@@ -1,0 +1,112 @@
+
+@media screen and (min-width: 440px) {
+    .restaurantVille {
+        .filter-black {
+            .coordonneesRestaurant {
+                .contact {
+                    width: unset !important;
+                    margin-left: 25% !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 565px) {
+    .restaurantVille {
+        .filter-black {
+            .coordonneesRestaurant {
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 30px;
+                justify-content: space-between;
+                .contact {
+                    margin-left: unset !important;
+                }
+            }
+            .autre-restaurant {
+                p {
+                    font-size: 1.6em !important;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 724px) {
+    .logoAngelRestaurantDetails {
+        width: 30% !important;
+        max-width: 250px !important;
+        .title-angeluzzo {
+            font-size: 1.8em !important;
+        }
+        .hr-restaurant {
+            width: 40% !important;
+        }    
+        .title-restaurant-ville {
+            font-size: 1.4em !important;
+        }
+    }
+    .restaurantVille .filter-black {
+        .map-restaurant {
+            figure {
+                height: 33vh !important;  
+                max-height: 445px !important;              
+            }
+        }
+        .info-supp {
+            font-size: 1.5em !important;
+        }
+        .autre-restaurant {
+            margin-top: 80px !important;
+            margin-bottom: 40px !important;
+            p {
+                font-size: 1.9em !important;
+            }
+            .hr-autre-angel {
+                max-width: 275px !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 960px) {
+    .restaurantVille {
+        .filter-black {
+            .grid-restaurants {
+                max-width: 90vw !important;
+                .row {
+                    justify-content: space-around !important;
+                }
+            }
+        }
+    }
+    .logoAngelRestaurantHome {
+        .title-angeluzzo {
+            font-size: 1.7em !important;
+        }
+        .title-restaurant-ville {
+            font-size: 1.5em !important;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1314px) {
+    .logoAngelRestaurantDetails {
+        .title-angeluzzo {
+            font-size: 2.1em !important;
+        }   
+        .title-restaurant-ville {
+            font-size: 1.6em !important;
+        }
+    }
+    .restaurantVille {
+        .filter-black {
+            .grid-restaurants {
+                max-width: 80vw !important;
+            }
+        }
+    }
+}
+

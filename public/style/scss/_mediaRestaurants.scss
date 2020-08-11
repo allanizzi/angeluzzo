@@ -1,0 +1,100 @@
+@media screen and (min-width: 450px) {
+    .restaurants .filter-black {
+        .title-restaurants {
+            .hr-title {
+                width: 150px !important;
+            }
+            .hr-restaurants01 {
+                margin-left: 50px !important;
+            }
+            .hr-restaurants02 {
+                margin-right: 50px !important;
+            }
+        }
+        
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .restaurants .filter-black {
+        .title-restaurants {
+            font-size: 2.6em;
+            .hr-title {
+                width: 30% !important;
+                max-width: 265px;
+            }
+            .hr-restaurants01 {
+                margin-left: 10% !important;
+            }
+            .hr-restaurants02 {
+                margin-right: 10% !important;
+            }
+        }
+        .title-selection {
+            font-size: 1.5em !important;
+            letter-spacing: 2px;
+        }
+        .text-fin-restaurants {
+            .hr-text-fin {
+                width: 11% !important;
+            }
+            .p-text {
+                font-size: 1.4em !important;
+                
+            }
+        }
+        
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .restaurants .filter-black {
+        .title-restaurants {
+            .hr-restaurants01 {
+                margin-left: 17% !important;
+            }
+            .hr-restaurants02 {
+                margin-right: 17% !important;
+            }
+        }
+        .title-selection {
+            letter-spacing: 4px;
+        }        
+    }
+}
+
+@media screen and (min-width: 1250px) {
+    .restaurants .filter-black {
+        .title-restaurants {
+            .hr-restaurants01 {
+                margin-left: 22% !important;
+            }
+            .hr-restaurants02 {
+                margin-right: 22% !important;
+            }
+        }
+        .title-selection {
+            font-size: 1.8em !important;
+            padding: 35px;
+        } 
+        .text-fin-restaurants {
+            .p-text {
+                font-size: 1.6em !important;
+                letter-spacing: 3px !important;
+            }
+        } 
+    }
+}
+
+@media screen and (min-width: 1424px) {
+    .restaurants .filter-black {
+        .title-restaurants {
+            .hr-restaurants01 {
+                margin-left: 26% !important;
+            }
+            .hr-restaurants02 {
+                margin-right: 26% !important;
+            }
+        } 
+    }
+}

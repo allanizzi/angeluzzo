@@ -1,0 +1,24 @@
+@media screen and (min-width: 850px) {
+    .logoAngelRestaurant {
+        .title-angeluzzo {
+            font-size: 1.8em !important;
+        }
+        .hr-restaurant {
+            width: 40% !important;
+        }    
+        .title-restaurant-ville {
+            font-size: 1.4em !important;
+        }
+    }
+}
+
+@media screen and (min-width: 1314px) {
+    .logoAngelRestaurant {
+        .title-angeluzzo {
+            font-size: 2.1em !important;
+        }   
+        .title-restaurant-ville {
+            font-size: 1.6em !important;
+        }
+    }
+}

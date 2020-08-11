@@ -1,0 +1,332 @@
+@mixin mediaHomePage {
+
+    // section medias pour ajustement titres et logo angeluzzo selon écrans
+    @media screen and (min-width: 350px) {
+
+        .title-angeluzzo-home {
+            font-size: 2em;
+        }
+        
+        .title-restaurant-home {
+            font-size: 1.6em;
+        }
+    }
+
+    @media screen and (min-width: 400px) {
+        .title-angeluzzo-home {
+            font-size: 2.3em;
+        }
+
+        .title-restaurant-home {
+            font-size: 1.8em;
+        }
+    }
+
+    @media screen and (min-width: 450px) {
+        .title-angeluzzo-home {
+            font-size: 2.5em;
+        }
+
+        .title-restaurant-home {
+            font-size: 2em;
+        }
+    }
+
+    @media screen and (min-width: 500px) {
+        .logoPngHome {
+            width: 70%; 
+        }
+
+        .title-angeluzzo-home {
+            font-size: 2.5em;
+        }
+
+        .title-restaurant-home {
+            font-size: 2em;
+        }
+    }
+
+    @media screen and (min-width: 560px) {
+        .logoPngHome {
+            width: 60%; 
+        }
+    }
+
+    @media screen and (min-width: 640px) {
+        .logoPngHome {
+            width: 50%; 
+        }
+
+        .title-angeluzzo-home {
+            font-size: 2.9em;
+        }
+
+        .title-restaurant-home {
+            font-size: 2.3em;
+        }
+        .hero-body {
+            .btn-haut-page {
+                display: block;
+                position: fixed;
+                right: 15px;
+                bottom: 25px;
+                width: 80px;
+                height: 80px;
+                z-index: 10;
+                background-color: $color-gold !important;
+                i {
+                    font-size: 50px !important;
+                }
+            }
+        }
+    }
+
+    @media screen and (min-width: 730px) {
+        .logoPngHome {
+            width: 45%; 
+        }
+
+        .title-angeluzzo-home {
+            font-size: 3em;
+        }
+
+        .title-restaurant-home {
+            font-size: 2.5em;
+            margin-bottom: 8px;
+        }
+        .contenu-hero {
+            margin-top: 25px;
+        }
+
+    }
+
+    @media screen and (min-width: 820px) {
+        .logoPngHome {
+            width: 36%; 
+        }
+
+        .title-angeluzzo-home {
+            font-size: 2.5em;
+        }
+
+        .title-restaurant-home {
+            font-size: 2.1em;
+        }
+    }
+
+    @media screen and (min-width: 1014px) {
+        .icon-scroll, .icon-scroll02 {
+            display: block;
+        }
+        
+        .icon-scroll,
+        .icon-scroll:before {
+
+            position: absolute;
+            left: 18%;
+        }
+
+        .icon-scroll02,
+        .icon-scroll02:before {
+
+            position: absolute;
+            left: 78%;
+        }
+
+        .icon-scroll {
+
+            width: 40px;
+            height: 70px;
+            top: 25%;
+            box-shadow: inset 0 0 0 4px #fff;
+            border-radius: 25px;
+        }
+
+        .icon-scroll02 {
+            width: 40px;
+            height: 70px;
+            top: 25%;
+            box-shadow: inset 0 0 0 4px #fff;
+            border-radius: 25px;
+        }
+
+        .icon-scroll:before {
+
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #fff;
+            margin-left: 9px;
+            top: 8px;
+            border-radius: 4px;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-name: scroll;
+        }
+            
+        .icon-scroll02:before {
+
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #fff;
+            margin-left: -14px;
+            top: 8px;
+            border-radius: 4px;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-name: scroll;
+        }
+
+@keyframes scroll {
+
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(46px);
+    }
+}
+
+    }
+
+    @media screen and (min-width: 1130px) {
+        .logoPngHome {
+            width: 32%; 
+
+            .title-angeluzzo-home {
+                font-size: 3em;
+            }
+
+            .title-restaurant-home {
+                font-size: 2.3em;
+            }
+        }
+    }
+    
+    @media screen and (min-width: 1215px) {
+        .logoPngHome {
+            width: 25%;
+        }
+        
+        .title-angeluzzo-home {
+            font-size: 2.5em !important;
+        }
+
+        .title-restaurant-home {
+            font-size: 2em !important;
+        }
+
+        .hero-body {
+            .btn-haut-page {
+                width: 85px !important;
+                height: 85px !important;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1250px) {
+        .logoPngHome {
+            width: 19%; 
+        }
+
+        .title-angeluzzo-home {
+            font-size: 2em !important;
+        }
+
+        .title-restaurant-home {
+            font-size: 1.6em !important;
+        }
+    }
+
+    @media screen and (min-width: 1380px) {
+        .title-angeluzzo-home {
+            font-size: 2.2em !important;
+        }
+
+        .title-restaurant-home {
+            font-size: 1.8m !important;
+        }
+    }
+
+    @media screen and (min-width: 1450px) {
+        .title-angeluzzo-home {
+            font-size: 2.4em !important;
+        }
+
+        .title-restaurant-home {
+            font-size: 2m !important;
+        }
+    }
+    // fin section
+
+    // section medias gestion emplacement composants selon hauteur device
+    @media screen and (min-height: 1000px) {
+        .logoPngHome {
+            margin-bottom: 5%;
+        }
+        .description-angel01 {
+            margin-bottom: 3%;
+        }
+        .description-angel02 {
+            margin-bottom: 3%;
+        }
+        .logos-reseaux .logo-insta {
+            margin-right: auto !important;
+        }
+        .logos-reseaux .logo-facebook {
+            margin-left: auto !important;
+        }
+    }
+
+    @media screen and (min-height: 1100px) {
+        .logoPngHome {
+            margin-bottom: 5%;
+        }
+    }
+
+    @media screen and (min-width: 560px) {
+        .description-angel01 p {
+            font-size: 1.6em;
+        }
+        .description-angel02 p {
+            font-size: 1.7em;
+        }
+        .logos-reseaux .logo-facebook {
+            margin-left: 20px;
+        }
+        .logos-reseaux .logo-insta {
+            margin-right: 20px;
+        }
+    }
+    @media screen and (min-width: 1000px) {
+        .description-angel01 p {
+            font-size: 1.8em;
+        }
+        .description-angel02 p {
+            font-size: 1.9em;
+        }
+        
+    }
+    // fin section
+
+
+    // section sidebar
+    @media screen and (max-width: 1250px) {
+        .btn-carte .lien-carte {
+            &:before {
+                width: 94%;
+                background: rgba($color-gold,1);
+            }
+            svg {
+                transform: translateX(0);
+            }
+            
+            &:active {
+            transform: scale(.96);
+            }
+        }
+    }
+
+}

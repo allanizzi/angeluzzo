@@ -1,0 +1,33 @@
+@media screen and (min-width: 350px) {
+    .laCarte {
+        background-attachment: fixed !important;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .laCarte {
+        .filter-black {
+            .title-carte, .title-drink {
+                font-size: 2.8em;
+            }
+            .title-carte {
+                margin-top: 20px;
+                margin-left: 0 !important;
+                width: 100% !important;
+            }
+            .title-drink {
+                margin-top: 65px !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1314px) {
+    .laCarte {
+        .filter-black {
+            .is-overlay {
+                max-width: 890px !important;
+            }
+        }
+    }
+}

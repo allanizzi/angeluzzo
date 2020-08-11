@@ -1,0 +1,39 @@
+@media screen and (min-width: 480px) {
+
+    .lesAvis {
+        .div-carousel-avis .carousel-items {
+            height: 505px !important;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 600px) {
+
+    .lesAvis {
+        .div-carousel-avis .carousel-items {
+            height: 435px !important;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 730px) {
+
+    .lesAvis {
+        .div-carousel-avis .carousel-items {
+            height: 390px !important;
+        }
+    }
+    
+}
+
+@media screen and (min-width: 1110px) {
+
+    .lesAvis {
+        .div-carousel-avis .carte-avis .text-avis {
+            font-size: 1.5em !important;
+        }
+    }
+    
+}

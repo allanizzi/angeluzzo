@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo&family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Arvo:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100;1,300;1,400;1,600;1,700&display=swap");
+body {
+  font-family: "Cardo", serif;
+}
+
+@media screen and (min-width: 770px) {
+  .presentation .card-terrasse .image-terrasse-decouvrir {
+    height: 330px;
+  }
+  .presentation .card-terrasse .image-terrasse-decouvrir .img-figure {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+@media screen and (min-width: 900px) {
+  .presentation .card-terrasse .image-terrasse-decouvrir .img-figure {
+    object-position: bottom;
+  }
+}
+@media screen and (min-width: 1150px) {
+  .presentation .card-terrasse .card-img-terrasse {
+    display: flex;
+  }
+  .presentation .card-terrasse .card-img-terrasse .image-terrasse-decouvrir {
+    height: 370px;
+    margin: 15px auto;
+    box-shadow: 5px 7px 8px;
+    border-radius: 5px;
+  }
+  .presentation .card-terrasse .card-img-terrasse .image-terrasse-decouvrir .img-figure {
+    width: 886px;
+    border-radius: 5px;
+  }
+  .presentation .card-terrasse .card-content .content, .presentation .card-plats .card-content .content {
+    font-size: 1.3em;
+    line-height: 33px;
+  }
+  .presentation .card-plats .card-image .image-plats {
+    justify-content: space-around;
+  }
+  .presentation .card-plats .card-image .image-plats img {
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 4px 4px 6px;
+    margin: 20px auto;
+    transition: transform 0.5s ease-in-out;
+  }
+  .presentation .card-plats .card-image .image-plats img:hover {
+    transform: scale(1.2);
+  }
+}
+@media screen and (min-width: 1270px) {
+  .presentation .card-terrasse .card-img-terrasse .image-terrasse-decouvrir {
+    height: 390px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .presentation .card-plats .card-image .image-plats img {
+    width: 25%;
+  }
+}
+.presentation {
+  background-image: url("../../Images/background-site-portrait.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  border: 2px solid #98792C;
+}
+
+.title-presentation {
+  color: #444;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
+.title-presentation .hr-title {
+  width: 70px;
+  background-color: #98792C;
+}
+.title-presentation .hr-presentation {
+  margin-left: 2%;
+}
+
+.card {
+  box-shadow: none;
+}
+
+.card-terrasse {
+  background-color: rgba(221, 221, 221, 0.86);
+}
+.card-terrasse .card-content .content {
+  font-size: 1.1em;
+  color: #1e1e1e;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 29px;
+}
+.card-terrasse .card-content .content .first-letter {
+  font-size: 2.7em;
+  color: #98792C;
+}
+
+.card-plats {
+  background-color: rgba(221, 221, 221, 0.86);
+}
+.card-plats .card-image .image-plats {
+  display: flex;
+}
+.card-plats .card-content .content {
+  font-size: 1.1em;
+  color: #1e1e1e;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 29px;
+}
+.card-plats .card-content .content .first-letter {
+  font-size: 2.7em;
+  color: #98792C;
+}
+
+/*# sourceMappingURL=presentation.css.map */
