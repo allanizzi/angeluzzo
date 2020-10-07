@@ -1,5 +1,8 @@
 # angeluzzo_app
 
+Ce projet a été effectué dans le cadre d'un stage de remplacement suite aux évènements liés au COVID-19. N'étant lié à aucune entreprise, il m'a été donné comme consigne de trouver un projet à réaliser seul durant 2 mois. Souhaitant évoluer dans le front-end comme l'UX / UI Design, j'ai donc décidé de recréer le site web du restaurant Angelùzzo.
+Les technologies utilisées dans ce projet sont principalement nouvelles pour moi, leurs potentiel et fonctionnalités n'ont donc été qu'à peine explorées.
+
 ## Project setup
 ```
 npm install
